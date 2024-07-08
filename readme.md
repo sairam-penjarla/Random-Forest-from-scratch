@@ -19,6 +19,18 @@ pip install -r requirements.txt
 
 ## Usage
 
+### Cloning the Repository
+
+To get a local copy of this repository, use the following commands:
+
+```bash
+# Clone the repository
+git clone https://github.com/sairam-penjarla/Random-Forest-from-scratch.git
+
+# Navigate to the project directory
+cd Random-Forest-from-scratch
+```
+
 To see an example of how to use the Random Forest classifier, run the `inference.py` script. This script demonstrates loading the Iris dataset, training the Random Forest classifier, making predictions, and evaluating the model's accuracy.
 
 ```bash
@@ -71,7 +83,3 @@ print(f'Accuracy: {accuracy * 100:.2f}%')
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a pull request or open an issue if you have any suggestions or improvements.
-
-### GitHub Link
-
-[Random-Forest-from-scratch](https://github.com/sairam-penjarla/Random-Forest-from-scratch)
